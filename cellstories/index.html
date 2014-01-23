@@ -1,0 +1,16 @@
+---
+layout: default
+title: CellStories
+---
+
+  <h2>this is a shitty list</h2>
+  <div id="cellbox">
+  <div id="library">
+    <div id="weekday">
+  <ul>
+    {% for page in site.pages %}
+      <li><a href="{{ page.url }}">{{ page.title }} by {{ page.author }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+</div>

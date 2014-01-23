@@ -1,0 +1,562 @@
+html {
+	-webkit-text-size-adjust:120%
+}
+
+body {
+	background: url(../images/pattern_107.gif) repeat;
+}
+
+#topbox {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	background: url(../images/cellsprite_redesign_flat.png) repeat-x;
+	background-position: 0 -30px;
+	height: 40px;
+	border-bottom: solid black 1px;
+}
+
+#topbox #logo {
+    background: url(../images/cellsprite_redesign_flat.png) no-repeat;
+	background-position: 0 -219px;
+	width: 110px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	height: 20px;
+	margin-left: -55px;
+}
+
+#topbox h1 {
+font-size: 1em;
+color: black;
+background-color:none;
+display: none;
+}
+
+#topbox a {
+	text-decoration: none;
+}
+
+#topbox .button {
+border-width: 1px;
+border-color: #575757;
+border-style: solid;
+-webkit-border-radius: 6px;
+background-color: #b5cfd2;
+width: 70px;
+height: 24px;
+margin-top:5px;
+margin-left:5px;
+text-align: center;
+font-size: 1.1em;
+padding-top: 5px;
+}
+
+#topbox .button:hover {
+background-color: black;
+}
+
+#topbox #share {
+background: url(../images/cellsprite_redesign_flat.png) no-repeat;0w-165px70px;
+height: 40px;
+background-position: 0 -130px;
+float: right;
+margin-top:5px;
+margin-right:4px;
+}
+
+#topbox #shelf {
+background: url(../images/cellsprite_redesign_flat.png) no-repeat;
+width: 70px;
+height: 40px; 
+margin-top:5px;
+margin-left:5px; 
+background-position: 0 -638px;
+float: left;
+}
+
+#topbox #share {
+background: url(../images/cellsprite_redesign_flat.png) no-repeat 0 -130px;
+width: 70px;
+height: 40px;
+float: right;
+margin-top:5px;
+margin-left:5px;
+}
+
+#ad {
+margin-top: -8px;
+margin-left: -8px;
+margin-bottom: 10px;
+display: none;
+}
+
+#footer #jump {
+background: url(../images/cellsprite_redesign_flat.png) no-repeat 0 -781px;
+width: 70px;
+height: 40px;
+float: left;
+margin-top:-3px;
+margin-left:-2px;
+}
+
+#topbox a span, #footer a span {
+	display:none;
+}
+
+#cellbox {
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 8px;
+	border: 1px;
+	background-color: #f0f0f0;
+	text-align: left;
+	position: relative;
+
+}
+
+
+#links ul {
+    text-align: center;
+    color: black;
+    background: white;
+    border: 1px solid #B4B4B4;
+    font: bold 17px Helvetica, Verdana, Arial, sans-serif;
+    padding: 0;
+    margin: 15px 10px 17px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
+#links ul li {
+    color: #666;
+    border-top: 1px solid #B4B4B4;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.02, rgb(237,237,237)),
+    color-stop(0.51, rgb(240,242,245)),
+    color-stop(0.76, rgb(250,250,250))
+);
+	background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(237,237,237) 2%,
+    rgb(240,242,245) 51%,
+    rgb(250,250,250) 76%
+);
+}
+
+#links li:first-child, li:first-child a {
+    border-top: 0;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#links li:last-child, li:last-child a {
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#links ul li a {
+    color: #666;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    padding: 12px 10px 12px 10px;
+    margin: -10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+#bottom_button {
+	margin-top: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#links ul li a:hover, #bottom_button a:hover {
+background: #bebebe;
+}
+
+#bottom_button a {
+    text-align: center;
+    border: 1px solid #B4B4B4;
+    font: bold 17px Helvetica, Verdana, Arial, sans-serif;
+    padding: 0;
+    margin: 15px 10px 17px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #666;
+    border-top: 1px solid #B4B4B4;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.02, rgb(237,237,237)),
+    color-stop(0.51, rgb(240,242,245)),
+    color-stop(0.76, rgb(250,250,250))
+	);
+	background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(237,237,237) 2%,
+    rgb(240,242,245) 51%,
+    rgb(250,250,250) 76%
+	);
+	text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+
+}
+
+#story {
+	
+}
+
+.header {
+	background: url(../images/title.gif) no-repeat;
+}
+.header span {
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	}
+
+#footer {
+	background: url(../images/cellsprite_redesign_flat.png) repeat-x;
+	background-position: 0 -30px;
+	height: 40px;
+	border-top: solid black 1px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding: 8px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#footer a {
+margin-top: 8px;
+color: #cde5f0;
+text-decoration: none;
+}
+
+h1 {
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	background-color:  white;
+	padding: 8px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	
+}
+ 
+h2 {
+	color: #536146;
+		opacity: 1;
+	font: bold 1.4em Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+}
+
+h2 a {
+	color: #536146;
+	font: bold 1em Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	text-decoration: underline;
+}
+
+h3 {
+	color: #3f3f3f;
+	font: bold 1.1em Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	padding: 0;
+	text-indent: 30px;
+	letter-spacing: -1px;
+}
+
+h3:before {
+	content: "by ";
+	font-weight: normal;
+	font-style: normal;
+	padding-right: 2px;
+}
+
+h4 {
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 0;
+	margin-bottom: -5px;
+	color: #3a5f45;
+}
+
+p.button {
+display: block;
+text-align: left;
+border: solid black 1px;
+padding: 15px;
+text-transform:uppercase;
+background-color:white;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#cellbox p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+  	line-height: 1.6em;
+	text-align: left;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.5em;
+	font-size: 1em;
+	text-align: left;
+}
+
+#cellbox #appeared p {
+	font-size: 0.9em;
+	text-align: left;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+#cellbox blockquote, #cellbox blockquote br {
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -22px;
+	font-size: 1.2em;
+  	line-height: 1.5em;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#bio {
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #b8b8b8;
+	border-top: 1px solid #b8b8b8;
+}
+
+#bio p {
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+#blurb {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 1.4em;
+	font-size: 1.2em;
+}
+
+#blurb strong {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+a {
+	font-weight: bold;
+	color: #0b0060;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .9em;
+	color: #708c4b;
+	
+}
+
+.shade {
+	color: #708c4b;
+}
+
+#fineprint {
+	margin-left: 28px;
+	padding-top: 10px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .7em;
+}
+
+#library {
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+
+#library div.weekday {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 0px;
+	background: url(../images/cellsprite_redesign_flat.png) no-repeat;
+	background-position: 0 -296px;
+	display: inline;
+	float: left;
+	width: 40px;
+	height: 46px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#library div.weekday span {
+	color: white;
+	font-size: .5em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	display: block;
+	padding-bottom: 0px;
+	margin-bottom: -1px;
+	margin-top: -3px;
+}
+
+#library h2 {
+	font-size: 1.2em;
+}
+
+#library p {
+	font-size: 1.15em;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#quickread {
+padding: 10px;
+border: 1px solid #a9a9a9;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 20px;
+background-color: #f9f9f9;
+}
+
+#quickread p {
+margin-top:5px;
+font-size: 1.1em;
+line-height: 1.4em;
+}
+
+#quickread h2 {
+padding-bottom: 0px;
+}
+
+#quickread h2 span {
+	font-style: normal;
+	font-weight: normal;
+}
+
+#quickread #refresh {
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/cellsprite_redesign_flat.png);
+	background-repeat: no-repeat;
+	background-position: 0 -725px;
+	float: right;
+}
+
+	
+	#quickread #refresh span {
+	display: none;
+	}
+	
+	a:hover#refresh  {
+	border-style: none;
+	border-width: 0;
+	background-color:transparent;
+	}
+	
+	#library p.shelf_bio {
+	
+		margin-top: 3px;
+	
+		font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	
+		line-height: 1.3em;
+	
+		font-size: 0.9em;
+	
+	}
+
+	
+	#library #author_library ul {
+	padding: 0px;
+	margin: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+
+.headtitle {
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: bold;
+font-size: 0.9em;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+color: #414141;
+margin-bottom: 10px;
+}
+
+.storytitle {
+font-size: 1.2em;
+padding-bottom: 0px;
+margin-bottom: 0px;
+
+}
+
+#error {
+	background-color: #9c312c;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	border: #5b0d0a 1px solid;
+	padding: 2px;
+	-webkit-border-radius: 5px;
+}
+
+#notice {
+	background-color: #456a34;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	border: 0;
+	padding: 2px;
+	-webkit-border-radius: 5px;
+}
+	
+	
+	
+	@media only screen and (max-device-width: 240px) {
+	
+	#topbox a span, #footer a span {
+	display:block;	
+}
+
+#topbox #shelf, #topbox #share, #footer #share {
+background:none;
+width: auto;
+}
+
+}
