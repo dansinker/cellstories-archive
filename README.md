@@ -18,9 +18,9 @@ So I wrote a scraper that would grab the stories, strip out all the IA cruft, an
 This is exciting for me. Maybe it'll be exciting for others. Also: it's still a work in progress.
 
 ##what is in this repo
-So at the top-level are the scrapers I made to actually grab the content, and the two node modules they're dependent on.
+So at the top-level are the scrapers I made to actually grab the content, and the two node modules they're dependent on. This scraper is modified from the great tutorial [Easy Web Scraping With Node](http://blog.miguelgrinberg.com/post/easy-web-scraping-with-nodejs).
 
-After that in the [cellstories](/cellstories) directory are all the jekyll files.
+After that in the [cellstories](/cellstories) directory are all the jekyll files. All the scraped stories themselves are in the [stories subdirectory](/cellstories/stories).
 
 ##what's still to come
 Well, first and foremost I swear to god we published more than ~200 stories. So I need to do some more diving into dark corners of the Internet Archive to see if I can't rustle any others out.
