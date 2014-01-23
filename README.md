@@ -27,4 +27,6 @@ Well, first and foremost I swear to god we published more than ~200 stories. So 
 
 Then, I need to make an actual archive interface. Right now, the stories look pretty much like they used to, but there was never a great archive view (by design) so that needs to be made. 
 
+Finally, I need to finish restoring the actual story pages. No links work, the actual story display logic isn't in place right now (meaning, you see the same format whatever device, instead of the crazy javascript-based system I'd built because user agent seemed like a pain in the ass and CSS media queries weren't really a thing yet), and some of the CSS isn't yet in place.
+
 Finally, I need to hook cellstories.net back up to the [S3 bucket](http://www.cellstories.net.s3-website-us-east-1.amazonaws.com/) where all this stuff lives.
