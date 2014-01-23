@@ -21,3 +21,10 @@ This is exciting for me. Maybe it'll be exciting for others. Also: it's still a 
 So at the top-level are the scrapers I made to actually grab the content, and the two node modules they're dependent on.
 
 After that in the [cellstories](/cellstories) directory are all the jekyll files.
+
+#what's still to come
+Well, first and foremost I swear to god we published more than ~200 stories. So I need to do some more diving into dark corners of the Internet Archive to see if I can't rustle any others out.
+
+Then, I need to make an actual archive interface. Right now, the stories look pretty much like they used to, but there was never a great archive view (by design) so that needs to be made. 
+
+Finally, I need to hook cellstories.net back up to the [S3 bucket](http://www.cellstories.net.s3-website-us-east-1.amazonaws.com/) where all this stuff lives.
